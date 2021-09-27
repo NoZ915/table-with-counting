@@ -1,0 +1,32 @@
+*{
+  margin:0;
+  padding:0;
+
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+}
+
+table{
+  border: 1px solid #000;
+  margin: 0 auto;
+}
+
+tr{
+  border: 1px solid #000;
+}
+
+td{
+  border: 1px solid #000;
+
+  font-size: 25px;
+  text-align: center;
+}
+
+a{
+  position: relative;
+  display: block;
+  padding: 15px 50px;
+
+  text-decoration: none;
+}
+
