@@ -4,29 +4,120 @@
 
   font-family: 'Roboto', sans-serif;
   letter-spacing: 1px;
+
+  /* outline: solid 1px yellow; */
+}
+
+body{
+  background-color: rgb(41, 39, 39);
 }
 
 table{
-  border: 1px solid #000;
-  margin: 0 auto;
-}
-
-tr{
-  border: 1px solid #000;
+  border: 1px solid rgb(230, 226, 226);
+  border-collapse: collapse;
+  margin: 0px auto;
+  margin-top: 35px;
 }
 
 td{
-  border: 1px solid #000;
+  border: 1px solid rgb(230, 226, 226);
 
-  font-size: 25px;
   text-align: center;
 }
 
-a{
-  position: relative;
-  display: block;
-  padding: 15px 50px;
-
-  text-decoration: none;
+.td_1:hover{
+  transition: 0.5s;
+  background-color: #F4A7B9;
+}
+.td_2:hover{
+  transition: 0.5s;
+  background-color: #FB966E;
+}
+.td_3:hover{
+  transition: 0.5s;
+  background-color: #F7C242;
+}
+.td_4:hover{
+  transition: 0.5s;
+  background-color: #7BA23F;
+}
+.td_5:hover{
+  transition: 0.5s;
+  background-color: #81C7D4;
+}
+.td_6:hover{
+  transition: 0.5s;
+  background-color: #2E5C6E;
+}
+.td_7:hover{
+  transition: 0.5s;
+  background-color: #986DB2;
 }
 
+a{
+  display: block;
+  padding: 80px 150px;
+
+  text-decoration: none;
+  font-size: 50px;
+  color: rgb(230, 226, 226);
+}
+.td_4 a{
+  padding: 190px 150px;
+}
+
+/*-----開始頁面-----*/
+h1{
+  margin: 10px;
+  vertical-align: middle;
+
+  color: rgb(230, 226, 226);
+  font-size: 25px;
+}
+
+.pageloading{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+
+  position: fixed;
+  left: 0;
+  right: 0;
+  background-color: rgb(41, 39, 39);
+}
+
+.start{
+  margin-top: 10px;
+  width: 250px;
+  background-color: rgb(41, 39, 39);
+  font-weight: 900;
+  font-size: 15px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+}
+.start:hover{
+  background-color: rgb(230, 226, 226);
+  color: rgb(41, 39, 39);
+  transition: 0.7s;
+}
+
+.loading{
+  border: 1px solid rgb(230, 226, 226);
+  width: 200px;
+  height: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.bar{
+  width: 0%;
+  height: 100%;
+  background-color: rgb(230, 226, 226);
+}
