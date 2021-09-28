@@ -12,7 +12,6 @@ clickToStartGame = function () {
       clearInterval(timer)
       setTimeout(() => {
         $(".pageloading").hide()
-        _this.startLevel()
       }, 500)
     }
   }, 30)
