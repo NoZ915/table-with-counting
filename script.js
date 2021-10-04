@@ -1,4 +1,4 @@
-clickToStartGame = function () {
+clickToStart = function () {
   var percent = 0
   var _this = this
   $("button").hide()
@@ -14,5 +14,5 @@ clickToStartGame = function () {
         $(".pageloading").hide()
       }, 500)
     }
-  }, 30)
+  }, 1)
 }
